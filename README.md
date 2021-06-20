@@ -29,7 +29,7 @@ $payMobObject = new PayMobClass();                                  => new insta
 $payMobObject->prepareConnect($FirstUrlToGetToken);                 => connect to url by Curl 
 $payMobObject->setHeaders($headers);                                => set some header to our request 
 $payMobObject->sendRequestPostToGetToken($api_key);                 => send post request by Curl to get token you must send param ( api_key ) inside your dashboard paymob getway $auth_token =  $payMobObject->getToken();                           => this function return token we can save it inside variable to use it at second step  
-
+ 
 
 
 # OK LETS START WITH SECOND STEP TARGET FROM THIS STEP ( SEND ORDER DETAILS AND ORDER ID FROM RESPONSE )
